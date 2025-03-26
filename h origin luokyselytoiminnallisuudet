@@ -1,0 +1,218 @@
+*   [33mda9f98a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mluokyselytoiminnallisuudet[m[33m)[m Merge branch 'luo-kysely-toimenpiteet-muutokset' into 'luokyselytoiminnallisuudet'
+[31m|[m[32m\[m  
+[31m|[m * [33m9f6797d[m[33m ([m[1;31morigin/luo-toimenpiteet[m[33m, [m[1;31morigin/luo-kysely-toimenpiteet-muutokset[m[33m, [m[1;32mluo-kysely-toimenpiteet-muutokset[m[33m)[m Muutettu kaikki LuoKyselyToimenpiteet
+[31m|[m * [33m1067241[m Muutettu kaikkia LuoKyselyToimenpiteet
+* [32m|[m [33mc9bc1bd[m[33m ([m[1;31morigin/luokyselytoiminnallisuudet[m[33m)[m Päivitetty LuoKyselyToimenpiteetIloinen
+[32m|[m[32m/[m  
+[32m|[m * [33m0c7c0f0[m[33m ([m[1;31morigin/Most_of_the_UI-tests_teacher_view[m[33m)[m UI-tests for teacher view
+[32m|[m[32m/[m  
+*   [33mb779021[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Merge pull request #5 from EmmiPoutanen/Implemented_questions_to_speech_functionality
+[34m|[m[35m\[m  
+[34m|[m * [33mb034242[m Ensure that the TTS settings are initalized
+[34m|[m * [33me0ae11e[m Add text to speech functionality
+[34m|[m[34m/[m  
+*   [33m90066cc[m Merge pull request #4 from EmmiPoutanen/Baseline_for_UI_and_unit_tests
+[36m|[m[1;31m\[m  
+[36m|[m * [33m0010abf[m Base for the UI and unit tests
+[36m|[m * [33m8fef662[m Revert starting the survey on wait screen
+[36m|[m[36m/[m  
+*   [33mb6129b0[m Merge pull request #3 from EmmiPoutanen/Support_student_view_development
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33mac53676[m Small changes to add possibility to join survey
+[1;32m|[m[1;32m/[m  
+*   [33m800c8e3[m Merge pull request #2 from eemilalamaki/opettaja
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m5bae10d[m Update MainPage.xaml
+[1;34m|[m * [33mf6157c9[m Aloitusnäyttö sekä opettajan näkymää jatkettu.
+[1;34m|[m[1;34m/[m  
+*   [33m4dfb5c0[m Merge pull request #1 from EmmiPoutanen/Merge_project_from_Xamarin_to_Maui
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m4166f3a[m Merge project from Xamarin to Maui
+[1;36m|[m[1;36m/[m  
+* [33m30cdc24[m Nimet lisätty & koodia siistitty
+*   [33m26563c0[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[32m|[m[33m\[m  
+[32m|[m * [33m51382a9[m Emojin valinnassa skaalautuvuus palautettu siihen, että kaikki mitä painetaan muuttuu isoksi
+* [33m|[m [33m65b0e47[m Tasapelibugi korjattu-toivottavasti. Mainpage palautettu ennalleen. Clientille flusheja ja hostilla flush alussa.
+[33m|[m[33m/[m  
+* [33ma4d977d[m Jotensakin toimiva versio. Flush() lisätty clientille ja hostille ja kaikki emojit mitä valitaan niin lähetetään. Ei kauheasti kaadu paitsi joskus. Kommenteissa vielä tarpeellista, kokeilen niitä myöhemmin.
+*   [33m2d88783[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[34m|[m[35m\[m  
+[34m|[m * [33mb9573b6[m "Poistu kyselystä" button poistettu
+* [35m|[m [33mc0f0af9[m xamlissa fontit pienennetty-turha. AllEmojisNames lisätty, pelittää jotenkuten.
+[35m|[m[35m/[m  
+* [33m2fe4e5e[m Emojin valinnassa näkyy vain yksi emoji kerralla valittuna
+*   [33me16adf8[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[36m|[m[1;31m\[m  
+[36m|[m * [33mc052769[m Poistettu "poistu kyselystä" button
+[36m|[m * [33mfbcde42[m Valitse kaikki nappi poistettu
+[36m|[m * [33m3f3d2c5[m Oranssi valinta vari korjattu
+[36m|[m * [33m4a30b7d[m Progressbar päivitetty
+* [1;31m|[m [33ma80cff4[m Palautettu funktiot, alemman voi poistaa (votecand1) myöhemmin. Kaikki emojit näkyy ja pikkuvikaa mutta aktiviteetit tulee oikein eniten ääniä saaneelle emojille.
+* [1;31m|[m [33m7219379[m oikeat aktiviteetit löytyy emojille riville 128. threat vakio---PITÄÄ MUUTTAA alkuperäiseksi.
+* [1;31m|[m [33m79958b6[m paikallistettu kaatava ongelma rivi 131. aktiviteetit menee jo sitä ennen väärin. activityvoteen kaatu nyt, poista muutokset. Threatia peukaloitu myös.
+* [1;31m|[m [33m06bec0c[m tolerance asetettu manuaalisesti, luuppi kommenttiin.
+* [1;31m|[m [33m68a4124[m muokattu aktiviteettiiäänestyslukuja surveyhin.activityvotess candidates1 tulostenodotukseen timeri.
+[1;31m|[m[1;31m/[m  
+* [33mfaebe60[m Xamleissa fontteja muutettu että näkyy honorilla. Emojin valinta toimii kolmelle.
+* [33mde8c095[m väärä etusivu, opettaja laitettu keskelle.
+* [33m3f664ba[m emoji2 kommenttiin.
+*   [33m539aab5[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33meac9544[m title päivitetty
+* [1;33m|[m [33m721ada3[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;34m|[m[1;33m\[m[1;33m|[m 
+[1;34m|[m * [33m8e073c0[m Update AktiviteettiäänestysTulokset.xaml
+[1;34m|[m * [33m13711aa[m ulkoasun päivitys
+[1;34m|[m * [33m3ae8d98[m ulkoasun päivitys
+[1;34m|[m * [33m05cd33d[m ulkoasun päivitys
+[1;34m|[m * [33mc2ff09e[m ulkoasun päivitys
+[1;34m|[m * [33m664f06f[m ulkoasu viilaus
+[1;34m|[m * [33md0e88b6[m Update OdotetaanVastauksiaClient.xaml
+[1;34m|[m * [33mb2a1628[m ulkoasua päivitetty
+* [1;35m|[m [33ma9257cd[m Lisätty rivit 81-92.
+* [1;35m|[m [33m487bb04[m Kommenttiin rivi 187 ja lisätty emojinamestogetherasstring
+* [1;35m|[m [33ma7ba161[m rivi 179, 512--> 256 byte varattu readbufferiin.
+* [1;35m|[m [33m609104e[m Lisätty emojinimilista, emojinimetstring ja emojinimilista. emojinimetstring otetaan vastaan mainclientilta.
+* [1;35m|[m [33m6d5047c[m emojinamestogetherasstring lisätty.
+* [1;35m|[m [33me3b86cc[m Surveyhostilla emojilistanimet lähetys lisätty. Consolitulostus (lisätiedot)-turha voi poistaa.
+* [1;35m|[m [33maa8574c[m Lisätty emojinames-lista.
+* [1;35m|[m [33me93a864[m lisätty emojinimet-lista.
+* [1;35m|[m [33m902cf74[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;36m|[m[1;35m\[m[1;35m|[m 
+[1;36m|[m * [33ma20ef53[m Oikean emojin näyttäminen oppilaalle emojin valinta osiossa, näyttää vain yhden tällä hetkellä. Bufferilla ei saada tuotua vielä paljoa tavaraa.
+[1;36m|[m * [33m0d79b32[m Päivitys
+* [31m|[m [33m2289943[m Lisätty destroyclient keskeytäclickediin.
+[31m|[m[31m/[m  
+* [33me908e63[m Vaihdetu väri siniseksi yhteenvetoclientiltä, poistettu oman kysymyksen asetus. Hämmästyneestä korjattu kirjotusvirhe.
+* [33me645afb[m Lisätty aktiviteettivarmistukset.
+*   [33m35a83f9[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[32m|[m[33m\[m  
+[32m|[m * [33me4677d8[m Lopeta nappi poistettu ja aikaa muokattu, jotta toimii yhteen oppilaan puolen kanssa
+[32m|[m * [33mbdd84cd[m Korjauksia
+* [33m|[m [33mf4327c3[m Lisätty varmistukset aktiviteetteihin.
+[34m|[m[33m\[m[33m|[m 
+[34m|[m * [33m78213b3[m Korjauksia
+[34m|[m * [33mdc7a544[m Emojitulokset päivitys
+* [35m|[m [33m9712f16[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[36m|[m[35m\[m[35m|[m 
+[36m|[m * [33m9b18319[m Arkisto bugi korjattu
+[36m|[m * [33mf38d73d[m Tekstiä korjattu
+[36m|[m * [33m5a286e0[m bugi korjattu, ei hypi enää näkymien välillä ittekseen
+[36m|[m * [33mde12ae5[m vanha toteutus
+[36m|[m * [33ma339f3e[m bugi korjattu
+* [1;31m|[m [33m0dd4785[m säädetty frameja ja emojien tulostuksia.
+* [1;31m|[m [33mce8415c[m Muutoksia tulosten näyttämiseen.
+[1;31m|[m[1;31m/[m  
+*   [33m1a14a3d[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m61a2971[m päivitetty otsikko, poistettu "poistu" button
+[1;32m|[m * [33mf8b7f8c[m Layout päivitetty
+[1;32m|[m *   [33m5bb94bc[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;32m|[m [1;34m|[m[1;35m\[m  
+[1;32m|[m [1;34m|[m * [33m88f7611[m Sivun otsikon rivitystä päivitetty
+[1;32m|[m * [1;35m|[m [33mcfdcfea[m Manifest updated
+[1;32m|[m [1;35m|[m[1;35m/[m  
+* [1;35m/[m [33m82c58a0[m Puuhailtu emojien valinnan kanssa.
+[1;35m|[m[1;35m/[m  
+*   [33mb6d0558[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m9a39402[m Poistettu valitse kaikki ja layout päivitys
+[1;36m|[m * [33m59920ba[m Päivitetty värejä että "aseta kysymys" näkyy
+[1;36m|[m * [33m0d55e8a[m Ulkoasua päivitetty
+[1;36m|[m *   [33m5e3cc75[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;36m|[m [32m|[m[33m\[m  
+[1;36m|[m * [33m|[m [33m37af3bb[m Muokattu kirjoitusvirhe.
+[1;36m|[m * [33m|[m [33m1315915[m Edellinen-toiminto lisätty ja käyttäjän valintoja tarkastettu.
+* [33m|[m [33m|[m [33mdef862c[m Network fixed
+[33m|[m [33m|[m[33m/[m  
+[33m|[m[33m/[m[33m|[m   
+* [33m|[m [33m2d92b34[m -
+* [33m|[m [33m69610a7[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[34m|[m[33m\[m[33m|[m 
+[34m|[m * [33m1ccd983[m Pieniä lisäyksiä.
+[34m|[m * [33mf6d59ea[m Muokattu siirtymiä ja lisätty aktiviteetteja const.cs:aan.
+[34m|[m *   [33m5969989[m Updated tiedostot ja esikatselu toimii oikein
+[34m|[m [36m|[m[1;31m\[m  
+[34m|[m [36m|[m * [33ma06524c[m Palaa alkuun painike korjattu
+[34m|[m [36m|[m * [33m0d114e9[m Progressbar update, siirtyy automaattisesti eteenpäin 60 sekunnin jälkeen
+[34m|[m [36m|[m * [33m509c469[m Takasin navigointi poistettu
+[34m|[m [36m|[m * [33m26c5b22[m Update Esikatselu.xaml
+[34m|[m [36m|[m *   [33m1fc8f91[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[34m|[m [36m|[m [1;32m|[m[1;33m\[m  
+[34m|[m [36m|[m [1;32m|[m * [33md8945b9[m Add files via upload
+[34m|[m [36m|[m [1;32m|[m * [33mdb1dd28[m Delete thumbsup.png
+[34m|[m [36m|[m [1;32m|[m * [33m88cb8e3[m Delete kirja.png
+[34m|[m [36m|[m [1;32m|[m * [33m02f30da[m Update EmojinValinta.xaml
+[34m|[m [36m|[m [1;32m|[m * [33m8ebfbba[m Update MainPage.xaml
+[34m|[m [36m|[m * [1;33m|[m [33m3171cb0[m Korjaus keskeytäpainikkeeseen
+[34m|[m * [1;33m|[m [1;33m|[m [33m6612523[m Itkunauru tiedostot lisätty. Emojista siirtymät päivitetty lopusta.
+[34m|[m * [1;33m|[m [1;33m|[m [33m808c84c[m lisätty aktiviteetit ja esikatselu toimii kokonaan.
+* [1;33m|[m [1;33m|[m [1;33m|[m [33ma65fef8[m Emojin valinnan tallennuksen jälkeen
+[1;33m|[m [1;33m|[m[1;33m_[m[1;33m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[1;33m|[m [1;33m|[m   
+* [1;33m|[m [1;33m|[m [33m731a420[m Haetaan valitut emojit emojien valintaan oppilaan puolella
+* [1;33m|[m [1;33m|[m [33m17af1a4[m Add files via upload
+* [1;33m|[m [1;33m|[m [33m504a064[m Add files via upload
+* [1;33m|[m [1;33m|[m [33m6daa33f[m Add files via upload
+[1;33m|[m [1;33m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[1;33m|[m   
+* [1;33m|[m [33m1072a0c[m Kirjautuminen lisätty
+* [1;33m|[m [33m7b46922[m Kirjautuminen lisätty
+* [1;33m|[m [33m4d29309[m Kirjautuminen lisätty
+[1;33m|[m[1;33m/[m  
+* [33mf8a1202[m Siirtymiä muokattu: Toimii nyt kolmelle eka emojille. Otsikkotekstit bindattu.
+* [33m8e3d58d[m Muutettu emojit.cs:n siirtymiä lopussa.
+*   [33mfcde083[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;34m|[m[1;35m\[m  
+[1;34m|[m *   [33mc08ef89[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[1;34m|[m [1;36m|[m[31m\[m  
+[1;34m|[m * [31m|[m [33mba208c6[m Progressbar animaatio lisätty
+[1;34m|[m * [31m|[m [33md6a6c0e[m Opettaja näkymiä lisätty, tarttee vielä hienosäätöä + toiminnallisuudet puuttuu
+* [31m|[m [31m|[m [33mb752af2[m yksittaiset naytot kolmelle eka emojille, siirtymat luoKyselyEmojit sivulta tehtävä switch-casella seuraavaksi ja muille valituille emojeille omat sivut.
+[31m|[m [31m|[m[31m/[m  
+[31m|[m[31m/[m[31m|[m   
+* [31m|[m [33maeb97a3[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[32m|[m[31m\[m[31m|[m 
+[32m|[m * [33ma961039[m Emoji tulokset päivitetty
+[32m|[m * [33mcbd4483[m Testausta varten osa kommenteihin
+[32m|[m * [33mb83aa8c[m Emojit näkyy, aktiviteetit ei toimi
+[32m|[m * [33m206c6dc[m .
+* [33m|[m [33mb312e94[m listaan tallennus onnistuu. Kuva hardcoodattu, ks kommentti. Yksittäisille sivuille jokainen oma emoji ja aktiviteetit pitää lisätä ja oikeat kuvat.
+* [33m|[m [33m0726684[m Buttonit kommentissa. tempActivities lista muokattu ja aktiviteettien lisäys onnistuu kaikille emojeille ja tallentuu. Muokattava että yksi lista/emoji.
+[33m|[m[33m/[m  
+* [33m886c382[m poistettu aaltosulku lopusta.
+*   [33mc27e15b[m Merge branch 'master' of https://github.com/violaniemi/Juttunurkka
+[34m|[m[35m\[m  
+[34m|[m * [33mb7dccae[m Mainpage päivitetty
+[34m|[m * [33ma3b6453[m emojinvalinta lisätty
+[34m|[m * [33m779ee42[m värit päivitetty
+[34m|[m * [33m34b8938[m Kyselyn avausnäkymiä (kesken)
+* [35m|[m [33m7242c47[m buttonit kommenteissa xamlissa, oikeat aktiviteetit tulostuu konsolille.
+* [35m|[m [33md915a23[m datatemplate oikeille aktiviteeteille -ei toimi nyt oikein.
+* [35m|[m [33m460686e[m Poista lopuksi: printtaukset consolille kun ladataan aktiviteetteja
+* [35m|[m [33meeb5ed3[m kommentti poistettu alusta, esikatselusta kommenttiin laitettu odotetaan osallistujia.
+* [35m|[m [33ma3df59c[m Pieniä muutoksia listoihin emojit ja aktiviteetin valinta tiedostoissa.
+[36m|[m[35m\[m[35m|[m 
+[36m|[m * [33m3148d32[m Esikatselu ehkä toimii
+* [1;31m|[m [33m813554b[m Checkboxin väri muutettu kun valittu: Poistettu rivi 89.
+* [1;31m|[m [33m85e4bef[m kommentteja poistettu emojeista. Lista päivitetty toimenpiteistä.
+* [1;31m|[m [33md8cbe02[m Cornerradius lisätty chekatessa toimenpiteet.cs:ssä lisää nyt oikeat valitut aktiviteetit listaan ja tallentaa surveyhin.
+[1;31m|[m[1;31m/[m  
+* [33m91249c5[m Checkbox toimii emojeissa, lisätty if-else rivit 130-141 vain jos chekattu niin lisätään survey listaan.
+*   [33m6f4f044[m Muokattu survey.cs(lisätty checkbox emojiin), muokattu luokyselyEmojit.xaml.cs (lisätty itemiin checkbox) ja muokattu Emoji.cs (lisätty checkbox emojiin).
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33mbd2aa07[m Pop-up lisätty
+[1;32m|[m * [33ma104d6e[m Edellinen painike korjattu
+[1;32m|[m * [33md856294[m Kyselyn nimeäminen lisätty jotta tallentaa kyselyn
+[1;32m|[m * [33m884361a[m Jatkapainike enabled vasta kun emoji valittu
+[1;32m|[m * [33m9af51ea[m Jotain pikkusäätöö
+[1;32m|[m * [33m9620921[m Esikatseluun lisätty avainkoodin näyttäminen
+* [1;33m|[m [33ma528e03[m lista lisätty, ei toimi vielä oikein. xamlia pitää muokata
+[1;33m|[m[1;33m/[m  
+* [33m61e3436[m Esikatselun lisäys + pikkusäätöä
+* [33m1540bde[m Aktiviteetivalikon muokkaus
+* [33mf896049[m Opettajanhuone näkymä liitetty mukaan
+* [33m52915b8[m Muokkaus jatkapainikkeeseen
+* [33m92ad31a[m Add project files.
+* [33m44ec189[m Add .gitattributes.
