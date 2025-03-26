@@ -105,7 +105,7 @@ namespace Prototype
         async void JatkaButtonClicked(object sender, EventArgs e)
         {
             
-			//error if not all emojis have at least 2 selected activity
+			//error if not   all emojis have at least 2 selected activity
 			if (!ActivitiesSet())
 			{
                 await DisplayAlert("Kaikkia valintoja ei ole tehty", "Sinun on valittava vähintään kaksi aktiviteettia", "OK");
